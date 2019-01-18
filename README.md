@@ -43,3 +43,13 @@
 
 3、效果图
 ![](https://i.imgur.com/BTUuuWC.jpg)
+
+## 移动端IOS浏览器下300ms延迟解约方案 ##
+1、引入fastclick库  
+`<script src="fastclick.min.js"></script>`  
+2、代码示例  
+`// 通过fastclick库解决IOS点击300ms延迟问题`  
+`(function enableFastclick(){`  
+   `var attachFastClick = Origami.fastclick;`    
+    `attachFastClick(document.body);`  
+`})();`  
