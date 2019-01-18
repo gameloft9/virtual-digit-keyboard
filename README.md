@@ -31,10 +31,10 @@
 `}` 
   
 `var option = {`  
-       ` "integerLimit":6,`  
-        `"fractionLimit":2,`  
+       ` "integerLimit":6,`  // 整数部分长度  
+        `"fractionLimit":2,` // 小数部分长度   
         `"fontSize":'24px',`  
-        `"mobile":false,`  
+        `"mobile":false,`  // 是否移动端  
         `"callBack":callBack`  
     `};`
 
