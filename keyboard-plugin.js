@@ -15,7 +15,7 @@
      mobile:"" // 是否手机端(针对Hover的CSS效果实现不同)
    }
  * @author gameloft9 2018-11-28
- * blog:
+ * blog:https://blog.csdn.net/gameloft9
  * */
 ;(function (exports) {
     var KeyBoard = function (input, options) {
