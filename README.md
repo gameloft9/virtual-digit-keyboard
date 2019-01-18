@@ -41,9 +41,9 @@
 `inputPlugin = new Input("input_container");`  
 `keyboardPlugin =  new KeyBoard(inputPlugin,option);`
 
-3、效果图
+### 效果图 ###
 ![](https://i.imgur.com/BTUuuWC.jpg)
-
+![](https://i.imgur.com/HxzjeN0.jpg)
 ## 移动端IOS浏览器下300ms延迟解约方案 ##
 1、引入fastclick库  
 `<script src="fastclick.min.js"></script>`  
@@ -53,3 +53,7 @@
    `var attachFastClick = Origami.fastclick;`    
     `attachFastClick(document.body);`  
 `})();`  
+
+#### 如果觉得好用麻烦点个start呗~ 还有红包可以领哦~####
+![](https://i.imgur.com/kXKrFe3.jpg)
+
