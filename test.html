@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+<div id='input_container'></div>
+<script src="input-plugin.js"></script>
+<script src="keyboard-plugin.js"></script>
+<script src="fastclick.min.js"></script>
+<script>
+
+// 通过fastclick库解决IOS点击300ms延迟问题
+(function enableFastclick(){
+    var attachFastClick = Origami.fastclick;
+    attachFastClick(document.body);
+})();
+
+/**
+* 确认回调
+*/
+function callBack(){
+ console.log('确认回调');
+}
+
+  var option = {
+        "integerLimit":6,
+        "fractionLimit":2,
+        "fontSize":'24px',
+        "mobile":false,
+        "callBack":callBack
+    };
+
+inputPlugin = new Input("input_container");
+keyboardPlugin =  new KeyBoard(inputPlugin,option);
+
+</script>
+</body>
+</html>
